@@ -1,0 +1,26 @@
+{
+    "value":{
+        "type": "score",
+        "target": "this",
+        "score": "sp.ID"
+    },
+    "condition": "value_check",
+    "range": {
+        "max": {
+            "type": "score",
+            "score": "sp.ID",
+            "target": {
+                "type": "fixed",
+                "name": "#TEMP"
+            }
+        },
+        "min": {
+            "type": "score",
+            "score": "sp.ID",
+            "target": {
+                "type": "fixed",
+                "name": "#TEMP"
+            }
+        }
+    }
+}
